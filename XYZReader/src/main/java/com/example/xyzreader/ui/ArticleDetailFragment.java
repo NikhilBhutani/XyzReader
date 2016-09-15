@@ -147,7 +147,8 @@ public class ArticleDetailFragment extends Fragment implements
   //      updateStatusBar();
 
           getActivityCast().setSupportActionBar(toolbar);
-            getActivityCast().getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
+            getActivityCast().getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+           // getActivityCast().getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
             getActivityCast().getSupportActionBar().setDisplayShowTitleEnabled(false);
         return mRootView;
     }
