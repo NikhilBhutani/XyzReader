@@ -23,4 +23,5 @@
     <color name="theme_accent">#03A9F4</color>
     <color name="ltgray">#ffe0e0e0</color>
     <color name="material_gry">#757575</color>
+    <color name="fab_background">#FF5252</color>
 </resources>
